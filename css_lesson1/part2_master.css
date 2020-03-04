@@ -1,0 +1,22 @@
+body{
+  background-color: grey;
+
+}
+
+div{
+  color: black;
+  background-color: blue;
+
+  border-color: black;
+  border-width: 3px;
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}

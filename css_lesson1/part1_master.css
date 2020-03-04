@@ -1,0 +1,25 @@
+/* This is a comment */
+/* This is also a comment  */
+
+/* selected tag{
+  property: value;
+  property2: value2;
+} */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: red;
+}
+
+p{
+  color: #0895a8;
+}
+
+/* The last value is how opaque the color is */
+/* The closer to 0 it is, the lighter (more opaque) it is! */
+h4{
+  color: rgba(255, 34, 63, 0.2);
+}
