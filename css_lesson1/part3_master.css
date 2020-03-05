@@ -1,0 +1,35 @@
+/* This is a comment */
+/* This is also a comment  */
+
+/* selected tag{
+  property: value;
+  property2: value2;
+} */
+
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/* Select unordered lists that are NEXT to a h3 tag */
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/* Select all anchor tags that are INSIDE a list */
+li a{
+  color: orange;
+}
+
+/* Only grab anchor tags INSIDE a list WITH A SPECIFIC HREF */
+li a[href="https://www.npr.org"]{
+  color: black;
+}
